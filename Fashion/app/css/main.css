@@ -1,0 +1,138 @@
+.block-example {
+  background: #52CD5E;
+  padding: 15px;
+}
+/* 
+	====== NAV ====== 
+*/
+.nav-wrapper {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.logo {
+  font-size: 22px;
+  color: #041122;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.navigation {
+  font-size: 15px;
+  font-weight: 600;
+}
+.navigation__link {
+  color: #52CD5E;
+  text-decoration: none;
+  margin-right: 30px;
+}
+.navigation__link:hove,
+.navigation__link:active,
+.navigation__link:focus {
+  color: #F72464;
+  text-decoration: none;
+}
+.cart__hover {
+  position: absolute;
+}
+.cart__hover:hover {
+  opacity: 1;
+}
+.cart__button {
+  margin-bottom: 12px;
+}
+/*header*/
+.header {
+  position: relative;
+  height: 700px;
+  background: #ABABAB;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.header .container {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.header__bg {
+  position: absolute;
+  overflow: hidden;
+  float: right;
+  width: 100%;
+  height: 100%;
+  left: 45%;
+  top: 0;
+  background: #f8f8f8;
+  background-image: url(../img/bg/) top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header__title {
+  color: #222;
+  font-size: 80px;
+  font-family: ;
+  font-heite: 1.25;
+}
+.header__content {
+  width: 750px;
+}
+.header__button {
+  background: red;
+  font-size: 20px;
+  color: #FFF;
+  font-family: 'Lora', serif;
+  display: inline-block;
+  padding: 14px 45px;
+  height: 50px;
+  line-height: 1;
+  border-radius: 3px;
+  box-shadow: 0px 5px 30px 0px rgba(31, 35, 37, 0.25);
+  text-decoration: none;
+  transition: ;
+}
+.header__button:hover {
+  background: #DA0F4D;
+  text-decoration: none;
+  box-shadow: 0px 5px 30px 0px rgba(31, 35, 37, 0.4);
+}
+.title {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 35px;
+  color: #222;
+  font-family: 'Lora', serif;
+  font-weight: 600;
+  text-align: center;
+}
+.subtitle {
+  font-size: 12px;
+  color: #FFF;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+.section {
+  padding: 100px 0;
+}
+/*============= BLOG ==================*/
+/* ========== FOOTER  ===============*/
+.footer__social {
+  color: #FFF;
+  font-size: 22px;
+}
+.footer__social a {
+  color: #FFF;
+  text-decoration: none;
+}
+.footer__social a:hover {
+  color: #f72;
+  text-decoration: none;
+}
+.footer-nav__link {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+.footer-nav__link:hover {
+  color: #FFF;
+}
